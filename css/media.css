@@ -130,8 +130,25 @@
     }
     /* Footer Area End */
 
+    /* Food Recipe Area Start*/
+    .food__recipe-wrapper{
+        grid-template-columns: auto;
+        justify-content: space-around;
+    }
+    /* Food Recipe Area End*/
+
 
 }
+/* Extra Media Query */
+@media  (min-width:414px) and (max-width:575px){
+ /* Food Recipe Area Start*/
+.food__recipe-wrapper{
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+/* Food Recipe Area End*/
+}
+
 @media (min-width:576px) and (max-width:767px) {
 
     
@@ -269,6 +286,12 @@
     }
     /* Footer Area End */
 
+    /* Food Recipe Area Start*/
+    .food__recipe-wrapper{
+        grid-template-columns: auto auto;
+    }
+    /* Food Recipe Area End*/
+
 
 }
 @media (min-width:768px) and (max-width:991px) {
@@ -394,10 +417,21 @@
     }
     /* Footer Area End */
 
+    /* Food Recipe Area Start*/
+    .food__recipe-wrapper{
+        grid-template-columns: auto auto auto;
+    }
+    /* Food Recipe Area End*/
+
+
 }
 @media (min-width:992px) and (max-width:1199px) {
     .main__area-index{
         background-position: 50%;
+    }
+
+    .main__area-recipe{
+        background-position: 8% 0;
     }
 
     /* Header Area Start */
@@ -472,11 +506,21 @@
         margin-right: 40px;
     }
     /* Footer Area End */
+
+    /* Food Recipe Area Start*/
+    .food__recipe-wrapper{
+        grid-template-columns: auto auto auto auto;
+    }
+    /* Food Recipe Area End*/
+
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
 
     .main__area-index{
         background-position: 50%;
+    }
+    .main__area-recipe{
+        background-position: 8% 0;
     }
 
     /* Header Area Start */

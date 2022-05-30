@@ -38,6 +38,14 @@ button:focus{
     
 }
 
+.main__area-recipe{
+    background: url(../images/recipe__bg.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: 50%  0;
+    
+}
+
 
 .header__area{
     padding-top: 28px;
@@ -470,4 +478,19 @@ button:focus{
     fill:#016EE5;
 }
 /* Footer Area End */
+
+/* Food Recipe Area Start*/
+
+.food__recipe-area{
+    padding-top: 72px;
+}
+.food__recipe-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-between;
+}
+.food__recipe-wrapper .food__card{
+    margin-bottom: 96px;
+}
+/* Food Recipe Area End*/
 
