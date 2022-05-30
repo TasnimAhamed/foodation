@@ -45,8 +45,13 @@ button:focus{
     background-position: 50%  0;
     
 }
-
-
+.main__area-recipe-detail{
+    background: url(../images/recipe-details-bg.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
 .header__area{
     padding-top: 28px;
 }
@@ -494,3 +499,103 @@ button:focus{
 }
 /* Food Recipe Area End*/
 
+/* Recipe Detail Area */
+.recipe__detail-area{
+    padding-top: 32px;
+}
+.ingredients__list-wrapper img{
+    margin-bottom: 32px;
+}
+.ingredients__list h3{
+    font-family: 'Philosopher',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--red);
+    border-bottom: 2px solid var(--black);
+    padding-bottom: 4px;
+}
+.ingredients__list ul{
+    list-style-type:none;
+    padding-left: 0;
+}
+.ingredients__list ul li{
+    display:flex;
+    padding: 20px 36px 24px 36px;
+    border-bottom: 2px dashed var(--black);
+}
+.ingredients__list ul li p{
+    font-family: 'Philosopher',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: var(--white);
+}
+.ingredients__list ul li p:first-child{
+    width: 15%;
+}
+.recipe__description-wrapper .recipe__title{
+    margin-left: -24%;
+    max-width: 50%;
+    margin-bottom: 36px;
+}
+.recipe__description-wrapper .recipe__title h2{
+    font-family: 'Philosopher',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--black);
+    text-align: center;
+}
+.recipe__description-wrapper .recipe__title h2 span{
+    color: var(--red);
+}
+
+.recipe__description-wrapper h3{
+    font-family: 'Philosopher',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--red);
+    padding-bottom: 4px;
+    position: relative;
+}
+.recipe__description-wrapper h3::after{
+    content: "";
+    display: inline-block;
+    width:100%;
+    max-width:400px;
+    background:var(--black);
+    height:2px;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.recipe__decription{
+    margin-top: 24px;
+    margin-bottom: 64px;
+    padding-right: 24px;
+}
+.recipe__decription h4{
+    font-family: 'Philosopher',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    color:var(--black);
+    margin-bottom: 12px;
+}
+.recipe__decription p{
+    font-family: 'Philosopher',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--white);
+}
+
+/* Recipe Detail Area */

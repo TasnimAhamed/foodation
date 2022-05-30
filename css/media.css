@@ -137,6 +137,38 @@
     }
     /* Food Recipe Area End*/
 
+    /* Food Recipe Description Start */
+
+    .ingredients__list h3{
+        font-size:30px;
+    }
+    .ingredients__list ul li p{
+        font-size:20px;
+    }
+    .recipe__description-wrapper{
+        margin-top: 24px;
+    }
+    .recipe__description-wrapper .recipe__title{
+        margin-left: 0;
+        max-width:100%;
+    }
+    .recipe__description-wrapper .recipe__title h2{
+        font-size:30px;
+    }
+    .recipe__description-wrapper h3{
+        font-size:30px;
+    }
+    .recipe__decription h4{
+        font-size:24px;
+    }
+    .recipe__decription p{
+        font-size:16px;
+    }
+    .recipe__decription{
+        padding-right: 0;
+        margin-bottom: 32px;
+    }
+    /* Food Recipe Description End */
 
 }
 /* Extra Media Query */
@@ -292,6 +324,42 @@
     }
     /* Food Recipe Area End*/
 
+    /* Food Recipe Description Start */
+
+    .ingredients__list h3{
+        font-size:30px;
+    }
+    .ingredients__list ul li p{
+        font-size:20px;
+    }
+    .recipe__description-wrapper{
+        margin-top: 24px;
+    }
+    .recipe__description-wrapper .recipe__title{
+        margin-left: 0;
+        max-width:100%;
+    }
+    .recipe__description-wrapper .recipe__title h2{
+        font-size:30px;
+    }
+    .recipe__description-wrapper h3{
+        font-size:30px;
+    }
+    .recipe__description-wrapper h3::after{
+        max-width:100%;
+    }
+    .recipe__decription h4{
+        font-size:24px;
+    }
+    .recipe__decription p{
+        font-size:16px;
+    }
+    .recipe__decription{
+        padding-right: 0;
+        margin-bottom: 32px;
+    }
+    /* Food Recipe Description End */
+
 
 }
 @media (min-width:768px) and (max-width:991px) {
@@ -423,7 +491,37 @@
     }
     /* Food Recipe Area End*/
 
-
+    /* Food Recipe Description Start*/
+    .ingredients__list h3 {
+        font-size:32px;
+    }
+    .ingredients__list ul li {
+        padding: 16px 20px 20px 24px;
+    }
+    .ingredients__list ul li p{
+        font-size:18px;
+    }
+    .recipe__description-wrapper .recipe__title{
+        max-width:100%;
+        margin-left: 0;
+    }
+    .recipe__description-wrapper .recipe__title h2 {
+        font-size:36px;
+    }
+    .recipe__description-wrapper h3 {
+        font-size:32px;
+    }
+    .recipe__decription h4 {
+        font-size:24px;
+    }
+    .recipe__decription p {
+        font-size:18px;
+    }
+    .recipe__decription{
+        margin-bottom:48px;
+        padding-right: 0;
+    }
+    /* Food Recipe Description End*/
 }
 @media (min-width:992px) and (max-width:1199px) {
     .main__area-index{
@@ -513,6 +611,47 @@
     }
     /* Food Recipe Area End*/
 
+    /* Food Recipe Area Start*/
+    .food__recipe-wrapper{
+        grid-template-columns: auto auto auto;
+    }
+    /* Food Recipe Area End*/
+
+    /* Food Recipe Description Start*/
+    .ingredients__list h3 {
+        font-size:32px;
+    }
+    .ingredients__list ul li {
+        padding: 16px 20px 20px 24px;
+    }
+    .ingredients__list ul li p{
+        font-size:18px;
+    }
+    .recipe__description-wrapper .recipe__title{
+        max-width:100%;
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+    .recipe__description-wrapper .recipe__title h2 {
+        font-size:36px;
+        text-align: left;
+    }
+    .recipe__description-wrapper h3 {
+        font-size:32px;
+    }
+    .recipe__decription h4 {
+        font-size:24px;
+    }
+    .recipe__decription p {
+        font-size:18px;
+    }
+    .recipe__decription{
+        margin-bottom:48px;
+        padding-right: 0;
+    }
+    /* Food Recipe Description End*/
+
+
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
 
@@ -584,6 +723,14 @@
         margin-right: 40px;
     }
     /* Footer Area End */
+
+    /* Food Recipe Area Start*/
+
+    .recipe__description-wrapper .recipe__title {
+        max-width:65%;
+    }
+
+    /* Food Recipe Area End*/
 
 }
 @media (min-width:1400px) and (max-width:1599px) {
