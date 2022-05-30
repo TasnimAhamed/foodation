@@ -785,7 +785,7 @@
         transform: translate3d(666px, 0px,0px)!important;
     }
     .popover[data-popper-placement="right"] {
-        top: 112px!important;
+        top: 150px!important;
     }
     /* Food Recipe Area End*/
 
