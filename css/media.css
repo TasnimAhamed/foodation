@@ -782,6 +782,10 @@
         max-width:65%;
     }
 
+    .popover[data-popper-placement="right"] {
+        top: 104px!important;
+    }
+
     /* Food Recipe Area End*/
 
 }
@@ -790,7 +794,14 @@
         zoom:75%;
     }
     .main__area-index{
-        background-position: 50% 0;
+        background-position: 50% 25%;
+    }
+
+    .popover[data-popper-placement="right"] {
+        top: 144px!important;
+    }
+    .footer__area {
+        padding-top: 72px;
     }
 
 }
@@ -799,11 +810,25 @@
         zoom:75%;
     }
     .main__area-index{
-        background-position: 50% 0;
+        background-position: 50% 25%;
     }
+
+    .popover[data-popper-placement="right"] {
+        top: 144px!important;
+    }
+    .footer__area {
+        padding-top: 72px;
+    }
+    
 }
 @media (min-width:1800px) and (max-width:1919px) {
     body{
         zoom:85%;
+    }
+    .popover[data-popper-placement="right"] {
+        top: 150px!important;
+    }
+    .footer__area {
+        padding-top: 96px;
     }
 }
