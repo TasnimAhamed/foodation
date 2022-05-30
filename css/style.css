@@ -70,7 +70,8 @@ button:focus{
     color: var(--black);
 }
 .main__menu ul li.menu__item:hover a,
-.main__menu ul li.menu__item:focus a{
+.main__menu ul li.menu__item:focus a
+.main__menu ul li.menu__item a:focus{
     color: var(--red);
 }
 .main__menu ul li a.active{
