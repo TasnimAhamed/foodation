@@ -15,7 +15,9 @@
         max-width: 175px;
     }
     .navbar-nav {
-        align-items: flex-start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
     }
     .main__menu ul .menu__item:not(:last-child){
         margin-right: 0;
@@ -24,8 +26,13 @@
         margin-left: 0;
     }
     .login__area-wrapper{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .main__menu ul li a{
         font-size:18px;
@@ -63,7 +70,10 @@
         top: 12%;
     }
     .notification__profile-wrapper{
-        flex-direction:column;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+            -ms-flex-direction:column;
+                flex-direction:column;
     }
     .notification__dropdown-toggler{
         background: #FFF7F7;
@@ -132,8 +142,10 @@
 
     /* Food Recipe Area Start*/
     .food__recipe-wrapper{
+        -ms-grid-columns: auto;
         grid-template-columns: auto;
-        justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
     }
     /* Food Recipe Area End*/
 
@@ -175,8 +187,10 @@
 @media  (min-width:414px) and (max-width:575px){
  /* Food Recipe Area Start*/
 .food__recipe-wrapper{
+    -ms-grid-columns: auto auto;
     grid-template-columns: auto auto;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 /* Food Recipe Area End*/
 }
@@ -198,7 +212,9 @@
         max-width: 175px;
     }
     .navbar-nav {
-        align-items: flex-start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
     }
     .main__menu ul .menu__item:not(:last-child){
         margin-right: 0;
@@ -207,8 +223,13 @@
         margin-left: 0;
     }
     .login__area-wrapper{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .main__menu ul li a{
         font-size:18px;
@@ -246,7 +267,10 @@
         top: 12%;
     }
     .notification__profile-wrapper{
-        flex-direction:column;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+            -ms-flex-direction:column;
+                flex-direction:column;
     }
     .notification__dropdown-toggler{
         background: #FFF7F7;
@@ -320,6 +344,7 @@
 
     /* Food Recipe Area Start*/
     .food__recipe-wrapper{
+        -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
     }
     /* Food Recipe Area End*/
@@ -378,7 +403,9 @@
         max-width: 175px;
     }
     .navbar-nav {
-        align-items: flex-start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
     }
     .main__menu ul .menu__item:not(:last-child){
         margin-right: 0;
@@ -387,8 +414,13 @@
         margin-left: 0;
     }
     .login__area-wrapper{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .main__menu ul li a{
         font-size:18px;
@@ -426,7 +458,10 @@
         top: 12%;
     }
     .notification__profile-wrapper{
-        flex-direction:column;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+            -ms-flex-direction:column;
+                flex-direction:column;
     }
     .notification__dropdown-toggler{
         background: #FFF7F7;
@@ -457,10 +492,14 @@
     }
     .food__card-area .left__area{
         width: 34%;
+        background: -webkit-gradient(linear, left top, right top, from(rgb(20 22 35 / 30%)), to(rgba(20, 22, 35, 0)));
+        background: -o-linear-gradient(left, rgb(20 22 35 / 30%) 0%, rgba(20, 22, 35, 0) 100%);
         background: linear-gradient(90deg, rgb(20 22 35 / 30%) 0%, rgba(20, 22, 35, 0) 100%);
     }
     .food__card-area .right__area{
         width: 34%;
+        background: -webkit-gradient(linear, left top, right top, from(rgba(20, 22, 35, 0.28)), to(rgba(20, 22, 35, 0)));
+        background: -o-linear-gradient(left, rgba(20, 22, 35, 0.28) 0%, rgba(20, 22, 35, 0) 100%);
         background: linear-gradient(90deg, rgba(20, 22, 35, 0.28) 0%, rgba(20, 22, 35, 0) 100%);
     }
     .spinner__area{
@@ -487,6 +526,7 @@
 
     /* Food Recipe Area Start*/
     .food__recipe-wrapper{
+        -ms-grid-columns: auto auto auto;
         grid-template-columns: auto auto auto;
     }
     /* Food Recipe Area End*/
@@ -574,10 +614,14 @@
     }
     .food__card-area .left__area{
         width: 34%;
+        background: -webkit-gradient(linear, left top, right top, from(rgb(20 22 35 / 30%)), to(rgba(20, 22, 35, 0)));
+        background: -o-linear-gradient(left, rgb(20 22 35 / 30%) 0%, rgba(20, 22, 35, 0) 100%);
         background: linear-gradient(90deg, rgb(20 22 35 / 30%) 0%, rgba(20, 22, 35, 0) 100%);
     }
     .food__card-area .right__area{
         width: 34%;
+        background: -webkit-gradient(linear, left top, right top, from(rgba(20, 22, 35, 0.28)), to(rgba(20, 22, 35, 0)));
+        background: -o-linear-gradient(left, rgba(20, 22, 35, 0.28) 0%, rgba(20, 22, 35, 0) 100%);
         background: linear-gradient(90deg, rgba(20, 22, 35, 0.28) 0%, rgba(20, 22, 35, 0) 100%);
     }
     .spinner__area{
@@ -607,12 +651,14 @@
 
     /* Food Recipe Area Start*/
     .food__recipe-wrapper{
+        -ms-grid-columns: auto auto auto auto;
         grid-template-columns: auto auto auto auto;
     }
     /* Food Recipe Area End*/
 
     /* Food Recipe Area Start*/
     .food__recipe-wrapper{
+        -ms-grid-columns: auto auto auto;
         grid-template-columns: auto auto auto;
     }
     /* Food Recipe Area End*/
@@ -693,10 +739,14 @@
     /* Food Card Area Start */
     .food__card-area .left__area{
         width: 34%;
+        background: -webkit-gradient(linear, left top, right top, from(rgb(20 22 35 / 30%)), to(rgba(20, 22, 35, 0)));
+        background: -o-linear-gradient(left, rgb(20 22 35 / 30%) 0%, rgba(20, 22, 35, 0) 100%);
         background: linear-gradient(90deg, rgb(20 22 35 / 30%) 0%, rgba(20, 22, 35, 0) 100%);
     }
     .food__card-area .right__area{
         width: 34%;
+        background: -webkit-gradient(linear, left top, right top, from(rgba(20, 22, 35, 0.28)), to(rgba(20, 22, 35, 0)));
+        background: -o-linear-gradient(left, rgba(20, 22, 35, 0.28) 0%, rgba(20, 22, 35, 0) 100%);
         background: linear-gradient(90deg, rgba(20, 22, 35, 0.28) 0%, rgba(20, 22, 35, 0) 100%);
     }
     .spinner__area{

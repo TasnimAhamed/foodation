@@ -26,7 +26,8 @@ p{
     margin-bottom: 0;
 }
 button:focus{
-    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+            box-shadow: none!important;
 }
 /* Header Area Start */
 
@@ -76,10 +77,13 @@ button:focus{
     color: var(--red);
 }
 .navbar-nav{
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .navbar-toggler:focus{
-    box-shadow: 0 0 0 0.08rem rgba(211, 27, 39, 0.75)!important;
+    -webkit-box-shadow: 0 0 0 0.08rem rgba(211, 27, 39, 0.75)!important;
+            box-shadow: 0 0 0 0.08rem rgba(211, 27, 39, 0.75)!important;
 }
 .navbar-toggler-icon{
     background-image: url(../images/toggler.svg);
@@ -185,6 +189,8 @@ button:focus{
     color: #898989;
 }
 .notification__profile-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .profile__dropdown-toggler{
@@ -268,8 +274,12 @@ button:focus{
 .food__card-area .left__area{
     width: 42%;
     height:280px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(20, 22, 35, 0.65)), to(rgba(20, 22, 35, 0)));
+    background: -o-linear-gradient(left, rgba(20, 22, 35, 0.65) 0%, rgba(20, 22, 35, 0) 100%);
     background: linear-gradient(90deg, rgba(20, 22, 35, 0.65) 0%, rgba(20, 22, 35, 0) 100%);
-    transform: matrix(1, 0, 0, -1, 0, 0);
+    -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+        -ms-transform: matrix(1, 0, 0, -1, 0, 0);
+            transform: matrix(1, 0, 0, -1, 0, 0);
     position: absolute;
     top: -54px;
     left: 0;
@@ -278,8 +288,12 @@ button:focus{
 .food__card-area .right__area{
     width: 42%;
     height:280px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(20, 22, 35, 0.65)), to(rgba(20, 22, 35, 0)));
+    background: -o-linear-gradient(left, rgba(20, 22, 35, 0.65) 0%, rgba(20, 22, 35, 0) 100%);
     background: linear-gradient(90deg, rgba(20, 22, 35, 0.65) 0%, rgba(20, 22, 35, 0) 100%);
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+        -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
+            transform: matrix(-1, 0, 0, 1, 0, 0);
     position: absolute;
     top: -54px;
     right: 0;
@@ -287,16 +301,23 @@ button:focus{
 }
 
 .food__card-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 
 .food__card{
     width:192px;
     height:226px;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
     text-align: center;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background: #FFFFFF;
     border: 1px solid #B9B9B9;
     border-radius: 16px;
@@ -304,7 +325,9 @@ button:focus{
     position: relative;
 }
 .food__card.active{
-    transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+        -ms-transform:scale(1.2);
+            transform:scale(1.2);
     top:-22px;
 }
 .food__card-content p{
@@ -322,7 +345,9 @@ button:focus{
     position:absolute;
     top: -84px;
     left:50%;
-    transform: translateX(-50%) scale(1.2);
+    -webkit-transform: translateX(-50%) scale(1.2);
+        -ms-transform: translateX(-50%) scale(1.2);
+            transform: translateX(-50%) scale(1.2);
 }
 .food__card-content a{
     display: inline-block;
@@ -370,13 +395,16 @@ button:focus{
     max-width: 360px;
     height:160px;
     border: 0;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
 }
 .popover[data-popper-placement="right"]{
     top: 64px!important;
 }
 .popover[data-popper-placement="right"] .popover-arrow{
-    transform: translate(0px, 12px)!important;
+    -webkit-transform: translate(0px, 12px)!important;
+        -ms-transform: translate(0px, 12px)!important;
+            transform: translate(0px, 12px)!important;
 }
 .popover-body{
     width: 100%;
@@ -387,8 +415,12 @@ button:focus{
     padding: 41px 53px;
 }
 .popover__content-wrapper {
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content:space-between;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
 }
 .popover__content-wrapper input{
     width: 20px;
@@ -402,12 +434,17 @@ button:focus{
     border-color: var(--lime);
 }
 .popover__content-wrapper input:focus{
-    box-shadow:none;
+    -webkit-box-shadow:none;
+            box-shadow:none;
     border-color: var(--lime);
 }
 .popover__content-wrapper  .form-check{
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
     display: flex!important;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .popover__content-wrapper label{
     font-family: 'Poppins',sans-serif;
@@ -452,8 +489,12 @@ button:focus{
 
 .call,
 .email{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .call{
     margin-bottom: 10px;
@@ -469,6 +510,8 @@ button:focus{
     margin-right: 48px;
 }
 .social__link ul li a svg path{
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
 .social__link ul li:first-child:hover a svg path{
@@ -490,9 +533,13 @@ button:focus{
     padding-top: 72px;
 }
 .food__recipe-wrapper{
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: auto auto auto auto auto;
     grid-template-columns: auto auto auto auto auto;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .food__recipe-wrapper .food__card{
     margin-bottom: 96px;
@@ -521,6 +568,8 @@ button:focus{
     padding-left: 0;
 }
 .ingredients__list ul li{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
     padding: 20px 36px 24px 36px;
     border-bottom: 2px dashed var(--black);
