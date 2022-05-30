@@ -704,7 +704,7 @@
         zoom: 85%;
     }
     .main__area-index{
-        background-position: 50%;
+        background-position: 50% 0;
     }
     .main__area-recipe{
         background-position: 8% 0;
