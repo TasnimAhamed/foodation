@@ -700,6 +700,9 @@
 
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
+    body{
+        zoom: 75%;
+    }
     .main__area-index{
         background-position: 50%;
     }
