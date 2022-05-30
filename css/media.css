@@ -701,7 +701,7 @@
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
     body{
-        zoom: 75%;
+        zoom: 85%;
     }
     .main__area-index{
         background-position: 50%;
@@ -781,7 +781,12 @@
     .recipe__description-wrapper .recipe__title {
         max-width:65%;
     }
-
+    .popover[data-popper-placement="top"] {
+        transform: translate3d(666px, 0px,0px)!important;
+    }
+    .popover[data-popper-placement="right"] {
+        top: 112px!important;
+    }
     /* Food Recipe Area End*/
 
 }
