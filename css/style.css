@@ -92,6 +92,8 @@ button:focus{
 
 .login__area{
     margin-left: 144px;
+    visibility:hidden;
+    opacity: 0;
 }
 
 .sign__up-btn{

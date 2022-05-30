@@ -700,7 +700,9 @@
 
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-
+    body{
+        zoom:90%;
+    }
     .main__area-index{
         background-position: 50%;
     }
@@ -784,15 +786,24 @@
 
 }
 @media (min-width:1400px) and (max-width:1599px) {
-
+    body{
+        zoom:75%;
+    }
     .main__area-index{
         background-position: 50% 0;
     }
 
 }
 @media (min-width:1600px) and (max-width:1799px) {
+    body{
+        zoom:75%;
+    }
     .main__area-index{
         background-position: 50% 0;
     }
 }
-@media (min-width:1800px) {}
+@media (min-width:1800px) and (max-width:1919px) {
+    body{
+        zoom:85%;
+    }
+}
